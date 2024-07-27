@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="contactus.html"><i class="fas fa-envelope"></i> Contact Us</a>
+        </nav>
+    </header><br><br>
+    <p>
+        <strong style="font-size: 24px;">Why Choose Us?</strong><br><br>
+        <strong>Experienced Guides:</strong> Our team of professional guides are experts in their fields and passionate about sharing their knowledge and love of the outdoors with you. <br><br>
+        <strong>Safety First:</strong> We prioritize your safety with comprehensive briefings, high-quality equipment, and strict safety protocols. <br><br>
+        <strong>Unmatched Locations:</strong> We operate in some of the most beautiful and unspoiled locations, offering you a chance to escape the ordinary and discover the extraordinary. <br><br>
+        <strong>Sustainable Practices:</strong> We are committed to protecting the environment and practice Leave No Trace principles on all our adventures. <br><br>
+        <strong>Book Your Adventure Today!</strong><br><br>
+        Ready to embark on the adventure of a lifetime? Contact us today to learn more about our packages and to book your next outdoor experience. Adventure awaits!
+    </p>
+    <br><br>
+    <div class="form-container">
+        <form id="submitForm" action="submit_form.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="firstName" class="form-label"><i class="fas fa-user"></i> First Name</label>
+                <input type="text" id="firstName" name="firstName" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="lastName" class="form-label"><i class="fas fa-user"></i> Last Name</label>
+                <input type="text" id="lastName" name="lastName" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="form-label"><i class="fas fa-envelope"></i> Email Address</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="needs" class="form-label"><i class="fas fa-comment-dots"></i> Let Us Know What You Need</label>
+                <textarea id="needs" name="needs" class="form-control" rows="4" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> Submit</button>
+            </div>
+        </form>
+    </div><br><br>
+
+   
+    <footer>
+        <p>&copy; All rights reserved by Eldar Hadzic</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

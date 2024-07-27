@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: aquamarine;
+}
+header, footer {
+    background-color: #72138aa1;
+    color: white;
+    padding: 1em 0;
+}
+.container {
+    padding: 20px;
+}
+.image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.form-container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto; /* Add this line to center the form container */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.form-group button {
+    background-color: #0095DD;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-group button:hover {
+    background-color: #007bb5;
+}
+
+.carousel-inner img {
+    width: auto;  
+    height: 550px; 
+    object-fit: cover; 
+    margin: 0 auto;  
+}
+
+
